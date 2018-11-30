@@ -1,0 +1,62 @@
+body {
+	/* background-image: url("/home/bridgeit/deepankantiwari/Test/assets/abc.jpeg"); */
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #000000;
+	padding-left: 35%;
+	padding-right: 35%;
+	padding-top: 5%;
+	font-family: Arial, Helvetica;
+}
+
+form {
+	border: 3px solid #babfc1e6;
+	background-color: #ffffff;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 6%;
+	box-shadow: 0px 0px 20px grey;
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 2px 3px 5px #555753ab;
+}
+
+label {
+	float: left;
+	width: 150px;
+	background-color: #9a9a9a;
+}
+
+input[type=email],
+input[type=password] {
+	width: 100%;
+	padding: 5px;
+	margin: 2% 0%;
+	display: inline;
+	border: none;
+	border-bottom: 1px dotted #988888;
+	border-radius: 5px;
+	line-height: 30px;
+	box-sizing: border-box;
+}
+
+button {
+	background-color: #0464ec;
+	box-shadow: 0px 0px 10px rgb(19, 67, 175);
+	border-radius: 50px;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	margin-left: 70px;
+	border: none;
+	cursor: pointer;
+	width: 55%;
+	background-image: linear-gradient(to right, #00deff8f, #131996cc);
+}
+
+.errMsg{
+
+	color: red;
+	float: right;
+}
